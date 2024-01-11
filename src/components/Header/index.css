@@ -1,0 +1,132 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+  padding: 15px 0px 25px 0px;
+}
+
+.nav-bar-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-logo-container {
+    display: none;
+  }
+}
+
+.nav-bar-mobile-icons-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-item-mobile-link {
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.logout-mobile-button {
+  background-color: transparent;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0px;
+}
+
+.nav-bar-desktop-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar-desktop-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 90px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 125px;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.nav-menu-item {
+  font-family: Roboto;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logout-desktop-button {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 42px;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-desktop-button {
+    display: none;
+  }
+}
