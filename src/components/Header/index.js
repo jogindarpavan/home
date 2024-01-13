@@ -9,7 +9,7 @@ import {BsFillBriefcaseFill} from 'react-icons/bs'
 import './index.css'
 
 const Header = props => {
-  const onClickLogOut = () => {
+  const onClickLogout = () => {
     const {history} = props
     Cookies.remove('jwt_token')
     history.replace('/login')
@@ -41,13 +41,14 @@ const Header = props => {
               <button
                 type="button"
                 className="logout-mobile-button"
-                onClick={onClickLogOut}
+                onClick={onClickLogout}
               >
                 <FiLogOut aria-label="fiLogOut" />
               </button>
             </li>
           </ul>
         </div>
+
         <div className="nav-bar-desktop-container">
           <Link to="/">
             <img
@@ -71,7 +72,7 @@ const Header = props => {
           <button
             type="button"
             className="logout-desktop-button"
-            onClick={onClickLogOut}
+            onClick={onClickLogout}
           >
             Logout
           </button>

@@ -9,6 +9,8 @@ import Header from '../Header'
 import SimilarJobItem from '../SimilarJobItem'
 import SkillsCard from '../SkillsCard'
 
+import './index.css'
+
 const apiConstantStatus = {
   initial: 'INITIAL',
   success: 'SUCCESS',
@@ -62,6 +64,7 @@ class JobItemDetails extends Component {
     const {match} = this.props
     const {params} = match
     const {id} = params
+
     const jwtToken = Cookies.get('jwt_token')
     const apiUrl = `https://apis.ccbp.in/jobs/${id}`
     const options = {

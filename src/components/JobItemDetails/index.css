@@ -1,0 +1,353 @@
+.job-item-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.job-details-view-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1180px;
+  padding-top: 20px;
+}
+
+.job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item {
+    padding: 45px;
+  }
+}
+
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.rating-icon {
+  font-size: 18px;
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.rating-heading {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.location-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-employee-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.location-icon {
+  font-size: 22px;
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.location-heading {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.employee-type-container {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.brief-case-icon {
+  font-size: 22px;
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.employee-type-heading {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.package-heading {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.line {
+  border-color: #6a95ce;
+  width: 100%;
+}
+
+.description-visit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description-heading {
+  font-family: Roboto;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.visit-container {
+  display: flex;
+  align-items: center;
+}
+
+.visit-heading {
+  font-family: Roboto;
+  color: #6a95ce;
+  font-size: 14px;
+  text-decoration: none;
+  padding-right: 4px;
+}
+
+.visit-icon {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #6a95ce;
+}
+
+.description-text {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 768px) {
+  .description-text {
+    font-size: 20px;
+  }
+}
+
+.skills-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.life-at-company-heading {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.life-at-company-description-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-description-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.life-at-company-description {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-description {
+    font-size: 20px;
+    width: 65%;
+  }
+}
+
+.life-at-company-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-image {
+    width: 350px;
+    height: 260px;
+  }
+}
+
+.similar-jobs-heading {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-heading {
+    font-size: 32px;
+  }
+}
+
+.similar-jobs-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+  }
+}
+
+.job-item-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-error-view-container {
+    width: 100%;
+    margin-top: 70px;
+    padding-bottom: 0px;
+  }
+}
+
+.job-item-failure-image {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-failure-image {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+.job-item-failure-heading-text {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-failure-heading-text {
+    font-size: 38px;
+  }
+}
+
+.job-item-failure-description {
+  font-family: Roboto;
+  font-size: 12px;
+  width: 90%;
+  max-width: 488px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0px;
+  line-height: 1.8;
+}
+
+.job-item-failure-button {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 8px 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.job-item-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-loader-container {
+    width: 100%;
+  }
+}
